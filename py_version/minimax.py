@@ -47,7 +47,7 @@ def wins(state, player):
     * Two diagonals [X X X] or [O O O]
     :param state: the state of the current board
     :param player: a human or a computer
-    :return: True if the player wins
+    :return: True if the players wins
     """
     win_state = [
         [state[0][0], state[0][1], state[0][2]],
